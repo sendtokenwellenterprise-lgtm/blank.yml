@@ -1,6 +1,6 @@
 name: TradeXpress IMPACT CI/CD
 
-on:
+on: #permissions:
   push:
     branches:
       - main
@@ -10,7 +10,7 @@ on:
       - main
 
 env:
-  NODE_VERSION: '18'
+  NODE_VERSION: '22'
 
 jobs:
   backend:
@@ -24,7 +24,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Setup Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@ipv4
         with:
           node-version: ${{ env.NODE_VERSION }}
           cache: npm
