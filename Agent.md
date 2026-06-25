@@ -1,8 +1,6 @@
-cd ~/Desktop/app/integration/TradeXpress_FullStack
-cat > README.md << 'EOF'
-# 🚀 TradeXpress IMPACT
+ 🚀 TradeXpress IMPACT
 
-**Full-Stack Trading Platform with 6 Core Modules**
+/*Full-Stack Trading Platform with 6 Core Modules*/
 
 [![Node.js](https://img.shields.io/badge/Node.js-18+-green)](https://nodejs.org)
 [![React](https://img.shields.io/badge/React-18-blue)](https://react.dev)
@@ -25,13 +23,12 @@ cat > README.md << 'EOF'
 
 ## 🛠️ Tech Stack
 
-**Frontend:** React 18, Vite, Tailwind CSS
+**Frontend:** React v22, Vite, Tailwind CSS
 **Backend:** Node.js, Express, MongoDB
-**DevOps:** Docker, Ubuntu
+**DevOps:** Docker, Ubuntu latest
 
 ## 🚀 Quick Start (Ubuntu)
 
-```bash
 # 1. Clone
 git clone git@github.com:sendtokenwellenterprise-lgtm/tradexpress-impact.git
 cd tradexpress-impact
